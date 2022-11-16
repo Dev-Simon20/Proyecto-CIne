@@ -10,8 +10,26 @@ package ProyectoCine;
  * @author jean
  */
 public class Cine {
-    int precio;
-    Pelicula peli[];
+    private double precio;
+    Pelicula peli;
+
+    public Cine(double precio, Pelicula peli) {
+        this.precio = precio;
+        this.peli = peli;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public Pelicula getPeli() {
+        return peli;
+    }
+    
+    
+    
+    
+    
     
       
     

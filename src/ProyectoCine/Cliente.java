@@ -13,4 +13,16 @@ public class Cliente {
     String nombre;
     int edad;
     double dinero;
+
+    public Cliente(String nombre, int edad, double dinero) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.dinero = dinero;
+    }
+    
+    public void datosCli(double precio){
+        System.out.println("Nombre: "+this.nombre);
+        System.out.println("Edad: "+this.edad);
+        System.out.println("Cambio: "+(this.dinero-precio));
+    }  
 }
