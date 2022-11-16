@@ -3,7 +3,6 @@ package ProyectoCine;
 
 import java.util.Scanner;
 
-
 public class Main {
     
     static Scanner entrada=new Scanner(System.in);
@@ -65,23 +64,11 @@ public class Main {
                         break;
                 }
         } while (opcion!=2);
-        
-        
-        
-        
-        
-       
-        
-        
-        
-        
-        
-            
-            
-        
-        
-        
+             
     }
+    
+    
+    
     
     
     
@@ -117,10 +104,6 @@ public class Main {
         }
     }
         
-        
-    
-    
-    
         public static void comprarB(){
         
             String asiento;
